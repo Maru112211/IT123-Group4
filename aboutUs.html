@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Group 4</title>
+
+<style>
+
+    body {
+        background: #222;
+        margin: 0;
+        padding-top: 120px;
+        font-family: Arial, sans-serif;
+    }
+
+
+    header {
+        background-color: black;
+        color: red;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 50px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 700;
+    }
+
+    .teamArchie {
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 10px 50px;
+        display: flex;
+        margin: 0;
+    }
+
+    nav ul li {
+        margin: 0 25px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: red;
+        font-weight: 500;
+        transition: 0.3s;
+        font-size: 1.3em;
+    }
+
+    nav ul li a:hover {
+        color: yellow;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+        padding-bottom: 40px;
+    }
+
+
+    .wrapper {
+        background: black;
+        width: 250px;
+        border-radius: 15px;
+        padding: 20px;
+        text-align: center;
+        color: #f5e70a;
+        border: 2px solid #f5e70a;
+        box-shadow: 0 0 10px #000;
+    }
+
+    img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        margin: 10px auto;
+        display: block;
+        object-fit: cover;
+    }
+
+    h4, p {
+        margin: 5px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* BACK BUTTON */
+    .back-btn {
+        display: block;
+        width: 120px;
+        margin: 40px auto;
+        text-align: center;
+        padding: 10px 20px;
+        background: #f5e70a;
+        color: black;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .back-btn:hover {
+        background: #c5b500;
+    }
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="teamArchie">Team Archie</div>
+    <nav>
+        <ul>
+            <li><a href="Intro.html">Home Page</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+
+    <div class="wrapper">
+        <img src="archie.jpg">
+        <h4>Archie Maglaque</h4>
+        <ul>
+            <li><p>Group Leader</p></li>
+            <li><p>Motto: You live You Code You Die</p></li>
+        </ul>
+    </div>
+
+    <div class="wrapper">
+        <img src="anelito.jpg">
+        <h4>Anelito Enriquez</h4>
+        <ul>
+            <li><p>Member</p></li>
+            <li><p>Motto: Don't let your Dreams End, So Keep Sleeping!</p></li>
+        </ul>
+    </div>
+
+    <div class="wrapper">
+        <img src="edwin1.jpg">
+        <h4>Edwin Aquino</h4>
+        <ul>
+            <li><p>Member</p></li>
+            <li><p>Motto: Be Humble and Think Positive Always</p></li>
+        </ul>
+    </div>
+
+    <div class="wrapper">
+        <img src="elmer.jpg">
+        <h4>Elmer Vargas</h4>
+        <ul>
+            <li><p>Member</p></li>
+            <li><p>Motto: Sometimes you win, Sometimes you Learn</p></li>
+        </ul>
+    </div>
+
+    <div class="wrapper">
+        <img src="jeff.jpg">
+        <h4>Jeff Punay</h4>
+        <ul>
+            <li><p>Member</p></li>
+            <li><p>Motto: Good enough is still good</p></li>
+        </ul>
+    </div>
+
+    <div class="wrapper">
+        <img src="pio.jpg">
+        <h4>Pio Peralta</h4>
+        <ul>
+            <li><p>Member</p></li>
+            <li><p>Motto: Life is not a game of luck; if you wanna win, work hard</p></li>
+        </ul>
+    </div>
+
+</div>
+
+<a href="index.html" class="back-btn">← Back</a>
+
+</body>
+</html>

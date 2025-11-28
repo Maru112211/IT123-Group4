@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+
+<style>
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(55, 78, 99);
+    padding-top: 120px; 
+    font-family: Arial, sans-serif;
+    align-items: center;
+}
+
+header {
+    background-color: black;
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 700;
+}
+
+.teamArchie {
+    font-size: 2em;
+    font-weight: bold;
+    color: red;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px 50px;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: red;
+    font-weight: 500;
+    transition: 0.3s;
+    font-size: 1.3em;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+.content {
+    flex: 1;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+
+.team-img {
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: black;
+    color: red;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    padding: 0px 50px; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.2em;
+}
+
+footer:hover {
+    color: yellow;
+}
+
+.contact {
+    font-size: 1em;
+    margin-right: 15px;
+}
+
+footer nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="teamArchie">Team Archie</div>
+    <nav>
+        <ul>
+            <li><a href="Intro.html">Home Page</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="content">
+    <h1>About Our Team</h1>
+    <p>We are Group 4, dedicated to building great projects with teamwork and passion.</p>
+    
+    <img class="team-img" src="gif.gif" alt="Team 4">
+</div>
+
+<footer>
+    <h4 style="margin-right: 20px;">Contact Us:</h4>
+    <nav>
+        <ul>
+            <li><a class="contact" href="https://youtu.be/dQw4w9WgXcQ?si=ViwL9mokvC90mmr1">Archie</a></li>
+            <li><a class="contact" href="https://web.facebook.com/anelito.enriquez.2024">Anelito</a></li>
+            <li><a class="contact" href="https://web.facebook.com/john.tamol.7">Edwin</a></li>
+            <li><a class="contact" href="https://web.facebook.com/elmer.vargas.206098">Elmer</a></li>
+            <li><a class="contact" href="https://web.facebook.com/jeff.laurence.punay.2025">Jeff</a></li>
+            <li><a class="contact" href="https://web.facebook.com/Angelow01">Pio</a></li>
+        </ul>
+    </nav>
+</footer>
+
+</body>
+</html>
